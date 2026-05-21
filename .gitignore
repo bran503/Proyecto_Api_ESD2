@@ -1,0 +1,29 @@
+# ==========================================
+# RUST (Aplicación / API)
+# ==========================================
+# Carpeta de compilación 
+/target
+
+.env
+.env.local
+.env.*.local
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+Thumbs.db
+ehthumbs.db
+
+Desktop.ini
+*.lnk
+
+$RECYCLE.BIN/
+*.tmp
+*.temp
+
+*~
+# Logs
+*.log
